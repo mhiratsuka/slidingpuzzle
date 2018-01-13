@@ -1,0 +1,62 @@
+body {
+    font-family: 'Bungee', cursive, Arial, "Helvetica Neue", Helvetica, sans-serif ;
+}
+
+main div.maindiv {
+    border: 1px solid hsl(221, 49%, 43%);
+    background-color: hsl(221, 49%, 43%);
+    width: 610px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.mix {
+    width: 605px;
+    height: 515px;
+    border: 1px grey solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+h1{
+	text-align: center;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.mix img#sample{
+	width: 500px;
+	height: 500px;
+}
+
+.action {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    margin: 1%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.mix img{
+	width: 148px;
+	height: auto;
+	margin: 1px;
+}
+
+input {
+    font-family: 'Bungee', cursive, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #fff;
+    padding: 0 1%;
+}
+
